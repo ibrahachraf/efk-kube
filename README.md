@@ -22,7 +22,7 @@ Step 2 — Creating the Elasticsearch StatefulSet
  
  Creating the Headless Service:
  
-To start, we’ll create a headless Kubernetes service called elasticsearch that will define a DNS domain for the all Pods~~
+To start, we’ll create a headless Kubernetes service called elasticsearch that will define a DNS domain for the all Pods
 ~~~~~~
 $ nano elasticsearch_svc.yaml
 ~~~~~~
