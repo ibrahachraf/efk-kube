@@ -6,3 +6,9 @@ Before we roll out an Elasticsearch cluster, we’ll first create a Namespace in
 ~~~~
 $ nano kube-logging.yaml
 ~~~~
+~~~~
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: kube-logging
+~~~~~~
